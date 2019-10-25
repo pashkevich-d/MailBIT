@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MailBIT</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <div class="header__logo"><a href="#"><img src="icons/logo.png" alt="logo mailbit"></a></div>
+            <div class="header__items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Coverage</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="header__login">
+                <div class="header__login__log">
+                    Log In <span><img src="icons/sort-down-solid.svg" alt="sort down"></span>
+                </div>
+                <div class="header__login__thai"><img src="icons/languages.png" alt="thai"></div>
+            </div>
+        </nav>
+        <div class="promo">
+            <div class="promo__title">Messaging & More</div>
+            <div class="promo__descr"><span>Let the world know!</span> Broadcast your message within seconds using MailBIT API</div>
+            <div data-modal="call" class="promo__btn">CONTACT SALES</div>
+        </div>
+    </header>
+    <section class="services">
+        <div class="services__subtitle">SERVICES</div>
+        <div class="services__title">A2P Let the world Know</div>
+        <div class="services__line"></div>
+        <div class="services__items">
+            <div class="services__items__block services__items__block1">
+                <img class="services__items__block__img" src="icons/Vector.png" alt="message">
+                <div class="services__items__block__title">Bulk Messaging</div>
+                <div class="services__items__block__descr">Make each message countas an opportunity for your customers and your business.</div>
+            </div>
+            <div class="services__items__block services__items__block2">
+                <img class="services__items__block__img" src="icons/locked.png" alt="lock">
+                <div class="services__items__block__title">Authentication</div>
+                <div class="services__items__block__descr">Keep both your system & User privacy secured by using 2FA mechanism applied.</div>
+            </div>
+            <div class="services__items__block services__items__block3">
+                <img class="services__items__block__img" src="icons/notification.png" alt="notification">
+                <div class="services__items__block__title">Notifications</div>
+                <div class="services__items__block__descr">Show your clients you care. Keep your clients updated & Happy with Real-time notifications.</div>
+            </div>
+            <div class="services__items__block services__items__block4">
+                <img class="services__items__block__img" src="icons/SMS API.png" alt="API">
+                <div class="services__items__block__title">SMS API</div>
+                <div class="services__items__block__descr">Programmatically send and receive SMS in practically every country. </div>
+            </div>
+            <div class="services__items__block services__items__block5">
+                <img class="services__items__block__img" src="icons/verified.png" alt="check">
+                <div class="services__items__block__title">Verify</div>
+                <div class="services__items__block__descr">Two-factor authentication made simple with an API.</div>
+            </div>
+            <div class="services__items__block services__items__block6">
+                <img class="services__items__block__img" src="icons/Web SMS.png" alt="web">
+                <div class="services__items__block__title"> Web SMS</div>
+                <div class="services__items__block__descr">User friendly planform that allow you. Submit & track your amazing campaigns Within seconds. </div>
+            </div>
+        </div>
+        <div class="services__dop"><img src="icons/element.png" alt="element"></div>
+    </section>
+    <section class="message">
+        <div class="message__title">Your message at the right time & place</div>
+        <div class="message__line"></div>
+        <div class="message__descr">Maximize your revenues by broadcasting your great message to potential customers at predefined time & location such as shopping centers, convention centers, airport ect.</div>
+        <div class="message__link"><a href="#">Learn more about LBS… </a></div>
+        <div class="message__img"><img src="icons/messages.png" alt="messages"></div>
+        <div class="message__dop"><img src="icons/element2.png" alt="elem"></div>
+    </section>
+    <section class="mms">
+        <div class="mms__title">MMS multimedia Messaging</div>
+        <div class="mms__line"></div>
+        <div class="mms__text"><span class="red">Feature phone is not dead.</span> <br> In contrast to the smartphone market, which contracted for the first time in 2018, the feature phone market has continued to grow over the last three years. Feature phones sales in 2019 expected as 400 Million and 1 Billion by 2021. <br> Multimedia messages support , Images and Video and various types of files It does not required internet connection and can cover any device. <br><span class="bottom">For more multimedia messaging information<span class="red link"> contact sales.</span></span></div>
+        <div class="mms__img"><img src="icons/Group 4.png" alt="phone"></div>
+    </section>
+
+    <div class="overlay">
+        <div class="modal" id="registration">
+            <div class="modal__close">&times;</div>
+            <div class="modal__title">
+                    Contact our sales service</div>
+            <form class="form form__long" action="#">
+                <label class="name">Your Name</label>
+                <input type="text" required minlength="2" placeholder="John">
+                <label class="phone">Your Phone</label>
+                <input name="phone" required placeholder="+1 (999) 999-99-99">
+                <label class="email">Your Email</label>
+                <input type="email" required placeholder="myemail@gmail.com">
+                <input data-modal="submit" type="submit" class="btn" value="Send Data">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
